@@ -54,9 +54,10 @@ Randomly split the generated data into 6 datasets.
     data$group = group_indicator
     data$order = data$group
 
-# A quick demo using CAFTA\_update\_optimx on the generated data. Use survreg function to get the initial value and find the CAFTA estimate using the generated data over the six sites.
+# A quick demo using CAFTA\_update\_optimx on the generated data.
+ Use survreg function to get the initial value and find the CAFTA estimate using the generated data over the six sites.
 
-# The dist option can be “weibull”, “loglogistic”, “lognormal”, and “gengamma”.
+ The `dist` option can be “weibull”, “loglogistic”, “lognormal”, and “gengamma”.
 
     data_first = subset(data,order==1)
 
@@ -82,9 +83,9 @@ curves.
 
     ## $a
 
-![](README_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![](figure/unnamed-chunk-5-1.png)
 
     ## 
     ## $b
 
-![](README_files/figure-markdown_strict/unnamed-chunk-5-2.png)
+![](figure/unnamed-chunk-5-2.png)
