@@ -1,0 +1,8 @@
+"0","group_indicator = c()"
+"0","for(k in c(1:(K))){"
+"0","    group_indicator= c(group_indicator,rep(k,ns[k]))"
+"0","  }"
+"0","# The CoxPH regression formula  "
+"0","form =as.formula(paste(""Surv(time, status)"", paste(names(data)[4:length(names(data))],collapse=""+""), sep = "" ~ ""))"
+"0","data$group = group_indicator"
+"0","data$order = data$group"
