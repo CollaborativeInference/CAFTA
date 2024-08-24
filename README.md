@@ -21,7 +21,7 @@ generated from a Bernoulli distribution and the second categorical with
 4 classes is generated from a multinomial distribution with
 probabilities depending on the two levels of the first categorical
 covariate. The event times are generated from the AFT model
-log (*T*) = *α* + *X*<sup>*T*</sup>*β* + *σ**W*.
+log (*T*) = *α* + *X*<sup>*T*</sup>*β* + *σW*.
 A Weibull AFT model is given by
 *f*(*w*) = *e*<sup>*w* − *e*<sup>*w*</sup></sup>, a log-logistic model
 is given by
