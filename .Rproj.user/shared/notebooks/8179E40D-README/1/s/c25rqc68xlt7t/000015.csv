@@ -1,7 +1,0 @@
-"0","type = ""weibull"""
-"0","ns = c(500,300,100,50,50,50)"
-"0","K = length(ns)"
-"0","      truev = c(0.15,-0.15,0.3,0.1,-0.1,0.3)"
-"0",""
-"0","data <- simaft(N =sum(ns),scale = 0.8, location =  0.3, beta=truev, rateC=2,ad_C = 10,type,censoring_type = ""uniform"")"
-"0",""
